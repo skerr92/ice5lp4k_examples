@@ -12,7 +12,8 @@ The pinout of the add on board is as follows:
 // LANE3 Lights P25 = RED | P23 = YELLOW | P21 = GREEN 
 // LANE4 Lights P42 = RED | P38 = YELLOW | P37 = GREEN
 
-```     3.3V -o|
+```text
+     3.3V -o|
 CAR1 - P4 -o|
       GND -o|
 CAR3 - P6 -o|
@@ -27,7 +28,8 @@ RED2 -P20 -o|
 GRN3 -P21 -o|               |o- P42- RED4
 YLW3 -P23 -o|               |o- P38- YLW4
 RED3 -P25 -o|               |o- P37- GRN4
-             --------------- ```
+             --------------- 
+```
 
 ## What they do: ##
 
