@@ -1,6 +1,7 @@
 `default_nettype none
 `timescale 10ns
 `include "timing.v"
+`include "ws2812.v"
 
 module top(input P9, P10, P11, P12, P13, output P6, LED2, LED3,LED_R, LED_G, LED_B);
     wire clk;
@@ -23,6 +24,8 @@ module top(input P9, P10, P11, P12, P13, output P6, LED2, LED3,LED_R, LED_G, LED
       .CLKLF(clk)
     );
     timing timing(.clk(clk), .logical(logical), .timedLogic(timedLogic), .await(await));
+
+    //ws2812 ws2812(.clk(clk), .rst(rst), .color(color), .num_leds(1), .frame(GB_out));
 
     initial begin
         logical = 0;

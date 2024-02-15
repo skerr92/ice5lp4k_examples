@@ -6,6 +6,10 @@ set_io LED_B 39
 set_io LED2 2
 set_io LED3 3
 
+set_io RGB[0] 41
+set_io RGB[1] 40
+set_io RGB[2] 39
+
 set_io reset 4
 
 set_io BUS8[0] 37
@@ -20,6 +24,27 @@ set_io BUS8[7] 47
 set_io MUX3[0] 9
 set_io MUX3[1] 10
 set_io MUX3[2] 11
+
+set_io out[0] 6
+set_io out[1] 9
+set_io out[2] 10
+set_io out[3] 11
+set_io out[4] 12
+set_io out[5] 13
+set_io out[6] 18
+set_io out[7] 19
+set_io out[8] 20
+set_io out[9] 21
+set_io out[10] 23
+set_io out[11] 25
+set_io out[12] 37
+set_io out[13] 38
+set_io out[14] 42
+set_io out[15] 43
+
+set_io stage[0] 44
+set_io stage[1] 45
+set_io stage[2] 46
 
 #GPIO
 set_io P4 4
