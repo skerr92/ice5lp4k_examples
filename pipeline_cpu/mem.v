@@ -1,6 +1,6 @@
 `default_nettype none
 
-module mem(input clk, rst, we, input [15:0] data_in, input [6:0] w_addr, input [6:0] r_addr, output [15:0] data_out);
+module mem(input wire clk, rst, we, input wire [15:0] data_in, input wire [6:0] w_addr, input wire [6:0] r_addr, output reg [15:0] data_out);
     reg [15:0] mem [511:0];
     integer i;
     initial begin 
